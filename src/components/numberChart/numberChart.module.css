@@ -1,0 +1,19 @@
+.chart {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.title {
+	font-size: 1.25rem;
+	padding: 0 .25em;
+}
+
+.value {
+	flex: 1;
+	align-self: center;
+	font-size: 3rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}

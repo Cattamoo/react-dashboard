@@ -1,0 +1,33 @@
+.setting {
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	width: 300px;
+	padding: 1em;
+	background-color: #222222ee;
+	border-left: solid .1em #666666;
+	color: #aaa;
+}
+
+.title {
+	margin-top: 0;
+	color: #fff;
+}
+
+.button {
+	position: fixed;
+	top: 0;
+	border: 0;
+	padding: .5em .25em;
+	border-radius: 1em 0 0 1em;
+	background-color: #666;
+}
+.openButton {
+	right: 0;
+	opacity: .8;
+}
+.closeButton {
+	right: 300px;
+	opacity: 1;
+}
