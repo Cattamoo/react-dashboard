@@ -25,7 +25,10 @@
 }
 .openButton {
 	right: 0;
-	opacity: .8;
+	opacity: 0;
+}
+.button.openButton:hover {
+	opacity: 1;
 }
 .closeButton {
 	right: 300px;
